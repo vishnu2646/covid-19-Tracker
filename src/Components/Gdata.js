@@ -14,6 +14,7 @@ export default class Gdata extends Component {
             global:data.Global,
             loding:false
         })
+        console.log(data)
     }
 
     render() {
@@ -30,7 +31,7 @@ export default class Gdata extends Component {
                             {this.state.global.NewConfirmed}
                             <br/>
                             <span className="font-bold">Total Cases: </span>
-                            {this.state.global.NewConfirmed}
+                            {this.state.global.TotalConfirmed}
                         </div>
                     </div>
                     <div className="shadow-md border-3 p-10 text-center rounded">
