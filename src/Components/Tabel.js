@@ -23,8 +23,8 @@ export default class Tabel extends Component {
                     <td>{index+1}</td>
                     <td>{item.Country}</td>
                     <td>{item.TotalConfirmed}</td>
-                    <td>{item.TotalDeaths}</td>
                     <td>{item.TotalRecovered}</td>
+                    <td>{item.TotalDeaths}</td>
                 </tr>
             )
         })

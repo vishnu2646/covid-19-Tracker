@@ -14,7 +14,6 @@ export default class Gdata extends Component {
             global:data.Global,
             loding:false
         })
-        console.log(data)
     }
 
     render() {
